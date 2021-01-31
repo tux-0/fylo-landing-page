@@ -1,0 +1,27 @@
+body{font-family: 'Open Sans', sans-serif !important;padding-top:1% ; padding-left:5% ;padding-right: 5%;}
+h1{font-family: 'Raleway' !important; font-weight: bold!important; padding-top: 5%!important; 
+    color: hsl(243, 87%, 12%) !important;}
+p{color:hsl(243, 87%, 12%) !important ;}
+section{margin-top: 5%; margin-left:1% ; }
+
+.form-control{
+    width:300px!important ; margin-right:3%!important ; height: 40px!important;
+}
+.btn {width:200px!important}
+
+/* @media only screen and (max-width:800px) {
+    /* For tablets: 
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }*/
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #logo {width:25%; height:12.5% ;}
+    h1{font-size: 20px !important;}
+    img {width: 100% !important;}
+  }

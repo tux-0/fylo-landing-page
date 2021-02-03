@@ -1,35 +1,55 @@
-body{font-family: 'Open Sans', sans-serif !important;padding-top:1% ; display: inline; }
+body{font-family: 'Open Sans', sans-serif !important;padding-top:1% ;    }
 nav{padding-left:5% !important;padding-right: 5%!important;margin-bottom: 5%;}
-section{ padding-right: 5%;padding-left: 5%; }
+section{ padding-right: 5%;padding-left: 5%; padding-bottom: 5%; }
+header > section > article {max-width:50%!important ;}
+header > section >article > form{float: left;}
+header > section >article > form >input {max-width: 50% !important;}
+header > section >article > form >button {max-width: 30% !important;}
+
 h1{font-family: 'Raleway' !important; font-weight: 700!important; padding-top: 8%!important; 
     color: hsl(243, 87%, 12%) !important;}
-h6{color:hsl(243, 87%, 12%) !important ; padding-top: 1%; 
+p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%; 
     font-family: 'Open Sans' !important; line-height: 30px!important; font-weight: initial!important;}
 
 #quote_part{box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;background-color: white; max-width: 340px; font-family: 'Open Sans' !important; margin-top: 3%;  
     padding-top: 2%;padding-left: 2%;padding-right: 2%;padding-bottom: 2%; border-radius: 5px;    
 }
-#quote_part > div {display: flex;}
+#quote_part > div {display: flex; }
+
 #quote_part >div >h1 { font-size: 15px!important; font-weight: 700!important; padding-top:0% !important;    }
 #quote_part >div>h1> span { font-size: 10px!important;}
+
+#third {background-color: hsl(238, 22%, 44%); padding-top: 5% ;display: inline-block; padding-bottom: 3%!important; }
+#third >article > h2 {color: white!important; font-family: 'Raleway'; font-weight: 700;}
+#third >article> p {color: white!important; }
+#third > article {float: left; max-width: 40%; margin-right: 10%;}
+#third > form{float: right; margin-right:2% ;}
+#third > form > input {width: 100%!important ;}
+#third > form > button{margin-top: 2%; font-size: 15px!important; ;font-weight: 400;}
 .form-control{
     width:300px!important ; margin-right:3%!important ; height: 40px!important;
 }
 .btn {width:200px!important}
 .fa-arrow-circle-right{color: teal !important    ;}
+footer{background-color: hsl(243, 87%, 12%)!important;}
+footer > div {background-color: hsl(243, 87%, 12%)!important; padding-top: 2%; padding-left: 5%!important;padding-right: 5%; }
+footer >img{margin-top: 5%;margin-left: 5%;}
+li{list-style-type: none;  padding-bottom: 5%!important;}
+footer a {color:white!important; padding-bottom: 10%!important;}
+footer h6 {color: white!important; line-height: 10px;}
  @media only screen and (max-width:800px) {
     /* For tablets: */
-    .main {
+    /* .main {
       width: 80%;
       padding: 0;
     }
     .right {
       width: 100%;
-    }
+    } */
   }
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
-    #logo {width:25%; height:12.5% ;}
+    /* #logo {width:25%; height:12.5% ;}
     h1{font-size: 20px !important;}
-    img {width: 100% !important;}
+    img {width: 100% !important;} */
   }

@@ -1,23 +1,30 @@
 body{font-family: 'Open Sans', sans-serif !important;padding-top:1% ;    }
 nav{padding-left:5% !important;padding-right: 5%!important;margin-bottom: 5%;}
 section{ padding-right: 5%;padding-left: 5%; padding-bottom: 5%; }
-header > section > article {max-width:50%!important ;}
-header > section >article > form{float: left;}
-header > section >article > form >input {max-width: 50% !important;}
-header > section >article > form >button {max-width: 30% !important;}
+ article {max-width:47%!important ; padding-top:4% ;}
+header > section >article > form{float: left; margin-left: 0%!important; display: flex; min-width: 90%!important;}
+header > section >article > form >input {width: 80%!important ; margin-right: 3%; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+header > section >article > form >button {width:40%!important;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 
-h1{font-family: 'Raleway' !important; font-weight: 700!important; padding-top: 8%!important; 
+h1{font-family: 'Raleway' !important; font-weight: bold!important; padding-top: 8%!important;
     color: hsl(243, 87%, 12%) !important;}
-p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%; 
+p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%;
     font-family: 'Open Sans' !important; line-height: 30px!important; font-weight: initial!important;}
+#second {padding-top: 3%;}
+#second > article {padding-top: 0%!important;}
+#second > img {padding-top: 5%; max-width: 47%;}
+#second > article > i {margin-top: 2%;}
+#second > article > h1 {padding-top: 5% !important;font-size: 2.6vw;}
+#second > article > p {max-width: 100%;}
 
-#quote_part{box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;background-color: white; max-width: 340px; font-family: 'Open Sans' !important; margin-top: 3%;  
-    padding-top: 2%;padding-left: 2%;padding-right: 2%;padding-bottom: 2%; border-radius: 5px;    
+#second_quote{box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;background-color: white; max-width: 370px !important; 
+  font-family: 'Open Sans' !important; margin-top: 3%;padding-left: 2%; padding-right: 2%;
+  padding-bottom: 2%; border-radius: 5px; min-width: 350px !important;  width: 370px!important;
 }
-#quote_part > div {display: flex; }
+#second_quote > div {display: flex; }
 
-#quote_part >div >h1 { font-size: 15px!important; font-weight: 700!important; padding-top:0% !important;    }
-#quote_part >div>h1> span { font-size: 10px!important;}
+#second_quote >div >h1 { font-size: 15px!important; font-weight: 700!important; padding-top:0% !important;    }
+#second_quote >div>h1> span { font-size: 10px!important;}
 
 #third {background-color: hsl(238, 22%, 44%); padding-top: 5% ;display: inline-block; padding-bottom: 3%!important; }
 #third >article > h2 {color: white!important; font-family: 'Raleway'; font-weight: 700;}
@@ -26,10 +33,7 @@ p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%;
 #third > form{float: right; margin-right:2% ;}
 #third > form > input {width: 100%!important ;}
 #third > form > button{margin-top: 2%; font-size: 15px!important; ;font-weight: 400;}
-.form-control{
-    width:300px!important ; margin-right:3%!important ; height: 40px!important;
-}
-.btn {width:200px!important}
+
 .fa-arrow-circle-right{color: teal !important    ;}
 footer{background-color: hsl(243, 87%, 12%)!important;}
 footer > div {background-color: hsl(243, 87%, 12%)!important; padding-top: 2%; padding-left: 5%!important;padding-right: 5%; }
@@ -37,19 +41,33 @@ footer >img{margin-top: 5%;margin-left: 5%;}
 li{list-style-type: none;  padding-bottom: 5%!important;}
 footer a {color:white!important; padding-bottom: 10%!important;}
 footer h6 {color: white!important; line-height: 10px;}
- @media only screen and (max-width:800px) {
+ @media only screen and (max-width:1000px) {
     /* For tablets: */
-    /* .main {
-      width: 80%;
-      padding: 0;
-    }
-    .right {
-      width: 100%;
-    } */
+    h1 {font-size: 25px!important;}
+    p {font-size: 15px   !important;}
+    header > section > article > form {margin: 0 auto; display: inline-block;}
+
+    .form-control{width: 100% !important;margin-bottom: 10px;}
+    .btn{width: 100% !important;}
+
+      
   }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
+  * {float: none!important;}
     /* For mobile phones: */
-    /* #logo {width:25%; height:12.5% ;}
-    h1{font-size: 20px !important;}
-    img {width: 100% !important;} */
+    body{text-align: center !important;}
+    #logo {width:25%; height:12.5% ;}
+    header img {width: 100% !important; margin-bottom: 10%;}
+    header article {min-width: 100%; }
+     h1{font-size:7vw !important; font-family: 'Open Sans' !important;
+       margin-bottom: 7%!important; }
+    header p {font-size:4vw !important ; margin-bottom:7% ;}
+    header > section > article > form {margin: 0 auto; display: inline-block;}
+
+.form-control{width: 100% !important;margin-bottom: 10px;}
+.btn{width: 100% !important;}
+#second > article  {min-width: 100% !important; display: inline-block;}
+#second > #second_quote {text-align: left !important;}
+#second > article> h1 {font-size: 5vw !important;}
+#second p {text-align: left;}
   }

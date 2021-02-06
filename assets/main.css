@@ -6,7 +6,7 @@ header > section >article > form{float: left; margin-left: 0%!important; display
 header > section >article > form >input {width: 80%!important ; margin-right: 3%; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 header > section >article > form >button {width:40%!important;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 
-h1{font-family: 'Raleway' !important; font-weight: bold!important; padding-top: 8%!important; 
+h1{font-family: 'Raleway' !important; font-weight: bold!important; padding-top: 8%!important;
     color: hsl(243, 87%, 12%) !important;}
 p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%;
     font-family: 'Open Sans' !important; line-height: 30px!important; font-weight: initial!important;}
@@ -17,7 +17,7 @@ p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%;
 #second > article > h1 {padding-top: 5% !important;font-size: 2.6vw;}
 #second > article > p {max-width: 100%;}
 
-#second_quote{box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;background-color: white; max-width: 370px !important; 
+#second_quote{box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;background-color: white; max-width: 370px !important;
   font-family: 'Open Sans' !important; margin-top: 3%;padding-left: 10px; padding-right: 10px;
   padding-bottom: 10px; border-radius: 5px; min-width: 350px !important;  width: 370px!important;
 }
@@ -33,26 +33,13 @@ p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%;
 #third > form{float: right; margin-right:2% ;}
 #third > form > input {width: 100%!important ;}
 #third > form > button{margin-top: 2%; font-size: 15px!important; ;font-weight: 400;}
-#second > a {color: teal;}
+#second > a {color: teal !important;}
 .fa-arrow-circle-right{color: teal !important    ;}
-footer{background-color: hsl(243, 87%, 12%)!important;}
-footer > div { padding-top: 2%; padding-left: 5%!important;padding-right: 5%; }
-footer >img{margin-top: 5%;margin-left: 5%;}
-li{list-style-type: none;  padding-bottom: 5%!important;}
-footer a {color:white!important; padding-bottom: 10%!important;}
-footer h6 {color: white!important; line-height: 10px;}
-.column {
-  float: left;
-  width: 20%;
-}
-
-/* Clear floats after the columns */
-.row_footer:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
+footer {background-color: hsl(243, 87%, 12%); padding-left: 5%; padding-top: 5%;}
+ul {list-style: none; color: white;}
+span{color: white;}
+.row {max-width: 100%;}
+a {color: white!important;}
  @media only screen and (max-width:1000px) {
     /* For tablets: */
     section {padding-right: 7%; padding-left: 7%;}
@@ -64,10 +51,8 @@ footer h6 {color: white!important; line-height: 10px;}
     .btn{width: 100% !important;}
     #second_quote {margin-left: 20px!important;margin-right: 20px!important;}
     #third >article {float: left;max-width: 50% !important; margin-right:5%!important ;}
-    #third > form { float: right; max-width: 40%!important;padding-top: 1%;}        
-    .column {
-      width: 50%;
-    }
+    #third > form { float: right; max-width: 40%!important;padding-top: 1%;}
+
   }
 @media only screen and (max-width:600px) {
   body {text-align: center !important;}
@@ -92,6 +77,7 @@ footer h6 {color: white!important; line-height: 10px;}
 
 #third > article {max-width: 100%!important; margin-right: 0%!important; padding-top: 10% !important;}
 #third > form {margin: 0 auto; display: inline-block; min-width: 100%!important;}
-.column {
-  width: 100%; 
-} }
+footer {text-align: left !important;}
+#footer_icons{margin: 0 auto;}
+
+}

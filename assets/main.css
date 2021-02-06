@@ -26,11 +26,11 @@ p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%;
 #second_quote >div >h1 { font-size: 15px!important; font-weight: 700!important; padding-top:0% !important;    }
 #second_quote >div>h1> span { font-size: 10px!important;}
 
-#third {background-color: hsl(238, 22%, 44%); padding-top: 5% ;display: inline-block; padding-bottom: 3%!important; }
+#third {background-color: hsl(238, 22%, 44%); padding-top: 5% ; padding-bottom: 3%!important;margin: 0 ; }
 #third >article > h2 {color: white!important; font-family: 'Raleway'; font-weight: 700;}
 #third >article> p {color: white!important; }
-#third > article {float: left; max-width: 40%; margin-right: 10%; padding-top: 0%!important;}
-#third > form{float: right; margin-right:2% ;}
+#third > article { max-width: 40%; margin-right: 10%; padding-top: 0%!important;}
+#third > form{margin-right:2% ;}
 #third > form > input {width: 100%!important ;}
 #third > form > button{margin-top: 2%; font-size: 15px!important; ;font-weight: 400;}
 #second > a {color: teal !important;}
@@ -76,7 +76,7 @@ footer a {color: white!important;}
 #third {padding-left: 10% !important;padding-right: 10% !important;}
 
 #third > article {max-width: 100%!important; margin-right: 0%!important; padding-top: 10% !important;}
-#third > form {margin: 0 auto; display: inline-block; min-width: 100%!important;}
+#third > form {margin: 0 auto;  min-width: 100%!important;}
 footer {text-align: left !important;}
 #footer_icons{margin: 0 auto;}
 

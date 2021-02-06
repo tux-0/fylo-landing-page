@@ -39,7 +39,7 @@ footer {background-color: hsl(243, 87%, 12%); padding-left: 5%; padding-top: 5%;
 ul {list-style: none; color: white;}
 span{color: white;}
 .row {max-width: 100%;}
-a {color: white!important;}
+footer a {color: white!important;}
  @media only screen and (max-width:1000px) {
     /* For tablets: */
     section {padding-right: 7%; padding-left: 7%;}

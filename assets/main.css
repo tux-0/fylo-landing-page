@@ -72,7 +72,7 @@ footer a {color: white!important;}
 #second > #second_quote {text-align: left !important; font-weight: 700!important;}
 #second > article> h1 {font-size: 5vw !important;}
 #second p {text-align: left;}
-#second_quote {margin-left: 20px!important;margin-right: 20px!important; min-width: 80% !important;}
+#second_quote {margin-left: 20px!important;margin-right: 20px!important; min-width: 80% !important; max-width:80% !important ;}
 #third {padding-left: 10% !important;padding-right: 10% !important;}
 
 #third > article {max-width: 100%!important; margin-right: 0%!important; padding-top: 10% !important;}

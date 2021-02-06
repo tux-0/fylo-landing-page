@@ -37,7 +37,7 @@ p{color:hsl(243, 87%, 12%) !important ; padding-top: 1%;
 .fa-arrow-circle-right{color: teal !important    ;}
 footer {background-color: hsl(243, 87%, 12%); padding-left: 5%; padding-top: 5%;}
 ul {list-style: none; color: white;}
-span{color: white;}
+footer span{color: white;}
 .row {max-width: 100%;}
 footer a {color: white!important;}
  @media only screen and (max-width:1000px) {
